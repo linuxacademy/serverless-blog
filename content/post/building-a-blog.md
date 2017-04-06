@@ -35,4 +35,4 @@ I hope you'll join us as we continue this series, jumping into the details of im
 
 * [Serverless Academy Blog Content](https://github.com/linuxacademy/serverless-blog)
 * [Serverless Academy Blog Stack](https://github.com/linuxacademy/serverless-blog-ops)
-* Coming Soon: Serverless Academy Blog Theme
+* [Serverless Academy Blog Theme](https://github.com/linuxacademy/serverless-blog-theme)
