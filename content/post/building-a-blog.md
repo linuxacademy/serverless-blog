@@ -19,11 +19,11 @@ Currently, this will allow people to store their content in GitHub and our stack
 
 ## How are we going to go about accomplishing this?
 
-> AWS CloudFormation allows us to specify what AWS services we will use and how they are connected. The CloudFormation template will deploy an AWS Lambda handler that will generate a new post when it is triggered by an API Gateway endpoint. GitHub triggers the API Gateway endpoint when new content is added. We have an S3 bucket that stores the generated website. We use CloudFront to pick up changes in S3 and caches the website artifacts in a Content Delivery Network which makes access to the content extremely fast. Finally, we have Route53 set up to connect a domain name to your CloudFront distribution.
+> AWS CloudFormation allows us to specify what AWS services we will use and how they are connected. The CloudFormation template will deploy an AWS Lambda handler that will generate a new post when it is triggered by an API Gateway endpoint. GitHub triggers the API Gateway endpoint when new content is added. We have an S3 bucket that stores the generated website. We use CloudFront to pick up changes in S3 and cache the website artifacts in a Content Delivery Network which makes access to the content extremely fast. Finally, we have Route 53 set up to connect a domain name to your CloudFront distribution.
 
 ## What challenges are we running into?
 
-> A little background, we're basing this on the JAMstack: JavaScript, APIs, and Markup. We're trying to ship atomic deploys, which allows us to deploy updates in an all-or-nothing fashion. We wanted to change CloudFront paths to point to a new atomic version of the blog, but CloudFront usually expects the "Origin Path" to stay the same. If you change the "Origin", even if it's in the same S3 bucket, CloudFront takes a long time to update the distribution.
+> For a little background, we're basing this on the JAMstack: JavaScript, APIs, and Markup. We're trying to ship atomic deploys, which allow us to deploy updates in an all-or-nothing fashion. We wanted to change CloudFront paths to point to a new atomic version of the blog, but CloudFront usually expects the "Origin Path" to stay the same. If you change the "Origin", even if it's in the same S3 bucket, CloudFront takes a long time to update the distribution.
 
 ## What are we going to do to mitigate the challenges?
 
