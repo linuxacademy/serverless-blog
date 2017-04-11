@@ -1,12 +1,12 @@
 name = "Serverless Academy Blog"
 license = "Apache-2.0"
 licenselink = "https://github.com/linuxacademy/serverless-blog-theme/blob/master/LICENSE.md"
-description = "Serverless Academy Blog is a theme for hugo."
+description = "Serverless Academy Blog is a theme for Hugo."
+homepage = "https://github.com/linuxacademy/serverless-blog-theme"
 tags = ["blog"]
-features = ["blog"]
-min_version = 0.15
+features = ["responsive", "thumbnail", "grid", "syntax highlight", "structured data", "ogp", "twitter cards"]
+min_version = 0.16
 
 [author]
-    name = "Johnny Jelinek"
-    homepage = "https://blog.serverlessacademy.com/"
-
+  name = "Johnny Jelinek"
+  homepage = "https://blog.serverlessacademy.com/"
