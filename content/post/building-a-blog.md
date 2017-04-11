@@ -1,8 +1,8 @@
 +++
-date = "2017-04-05T10:49:34-05:00"
+date = "2017-04-10T10:49:34-05:00"
 title = "Building a Serverless Blog"
 draft = false
-image = "Image-05.png"
+thumbnail = "images/Image-05.png"
 categories = ["Building a Serverless Blog"]
 tags = ["aws", "lambda", "cloudfront", "api gateway", "route53", "s3", "cloudformation", "github"]
 +++
