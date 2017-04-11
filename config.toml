@@ -1,6 +1,7 @@
 languageCode = "en-us"
 title = "Serverless Academy Blog"
 baseURL = "https://linuxacademy.github.io/serverless-blog/"
+theme = "slsa_theme_blog"
 
 [params]
   dateformat = "Mon, Jan 2, 2006" # Optional
