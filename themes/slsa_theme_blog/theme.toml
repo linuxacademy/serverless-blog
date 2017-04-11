@@ -1,12 +1,12 @@
-name = "Robust"
-license = "MIT"
-licenselink = "https://github.com/dim0627/hugo_theme_robust/blob/master/LICENSE.md"
-description = "Robust is blog theme for hugo."
+name = "Serverless Academy Blog"
+license = "Apache-2.0"
+licenselink = "https://github.com/linuxacademy/serverless-blog-theme/blob/master/LICENSE.md"
+description = "Serverless Academy Blog is a theme for hugo."
 tags = ["blog"]
 features = ["blog"]
 min_version = 0.15
 
 [author]
-    name = "Daisuke Tsuji"
-    homepage = "http://yet.unresolved.xyz/"
+    name = "Johnny Jelinek"
+    homepage = "https://blog.serverlessacademy.com/"
 
