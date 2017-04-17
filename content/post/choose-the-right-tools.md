@@ -21,7 +21,7 @@ The JAMstack represents some new modern [best practices](https://jamstack.org/be
 * Atomic Deploys
 * Instant Cache Invalidation
 
-Traditionally, you would use tools like Wordpress to deliver a blog to the public. Wordpress works for a lot of organizations, but not everyone needs all of the complexity that comes with Wordpress.
+Traditionally, you would use tools like WordPress to deliver a blog to the public. WordPress works for a lot of organizations, but not everyone needs all of the complexity that comes with WordPress.
 
 For the Serverless Academy blog, we want to optimize for reads. The content is mostly static: blog posts that we write and you read. Traffic should show that reading far outweighs writing in our system. Therefore, we don't really need:
 
@@ -43,7 +43,7 @@ Following JAMstack principles, I am able to write blog posts (like the one you'r
 
 ## Storing Content and Theme
 
-I need a place to store the content. Instead of reaching for a SQL database like I would with Wordpress, I can store the content using just git. Since the content doesn't change too frequently and the filesize is relatively small, I can use standard source control management for this. I've opted to use GitHub as the repository for the content [here](https://github.com/linuxacademy/serverless-blog). I've also created a `git subtree` which allows me to edit the theme and embed it in the same repository as my content, but also [push it to its own repository](https://github.com/linuxacademy/serverless-blog-theme) where others can apply the theme to their blogs as well.
+I need a place to store the content. Instead of reaching for a SQL database like I would with WordPress, I can store the content using just git. Since the content doesn't change too frequently and the filesize is relatively small, I can use standard source control management for this. I've opted to use GitHub as the repository for the content [here](https://github.com/linuxacademy/serverless-blog). I've also created a `git subtree` which allows me to edit the theme and embed it in the same repository as my content, and also [push it to its own repository](https://github.com/linuxacademy/serverless-blog-theme) where others can apply the theme to their blogs as well.
 
 ## Publishing Content
 
