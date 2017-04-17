@@ -1,8 +1,8 @@
 +++
-date = "2017-04-05T12:34:57-05:00"
+date = "2017-04-10T10:49:34-05:00"
 title = "Building a Serverless Blog"
-draft = true
-image = "Image-05.png"
+draft = false
+thumbnail = "images/Image-05.png"
 categories = ["Building a Serverless Blog"]
 tags = ["aws", "lambda", "cloudfront", "api gateway", "route53", "s3", "cloudformation", "github"]
 +++
@@ -35,4 +35,4 @@ I hope you'll join us as we continue this series, jumping into the details of im
 
 * [Serverless Academy Blog Content](https://github.com/linuxacademy/serverless-blog)
 * [Serverless Academy Blog Stack](https://github.com/linuxacademy/serverless-blog-ops)
-* Coming Soon: Serverless Academy Blog Theme
+* [Serverless Academy Blog Theme](https://github.com/linuxacademy/serverless-blog-theme)
